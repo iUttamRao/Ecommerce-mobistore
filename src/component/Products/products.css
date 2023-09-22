@@ -1,0 +1,81 @@
+/* ProductList.css */
+.search-input{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:10px 10px 10px 10px;
+}
+
+.search-input input{
+  padding: 5px;
+  border-radius: 20px;
+  width:300px
+}
+
+.product-list {
+    margin:20px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .product-card {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+  }
+  
+  .product-card img {
+    height: 300px;
+    cursor: pointer;
+  }
+  
+  .product-card h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .product-card p {
+    margin: 3px 0;
+  }
+  
+  .product-card button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right:2px
+  }
+  
+  .product-card button:hover {
+    background-color: #0056b3;
+  }
+
+/* Brand filter styles */
+.brand-filter {
+  margin-top: 20px;
+  margin-left:40px
+}
+
+.brand-filter span {
+  margin-right: 10px;
+}
+
+.brand-checkbox {
+  margin-right: 10px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.brand-checkbox input {
+  margin-right: 5px;
+}
+
+.brand-checkbox label {
+  cursor: pointer;
+}

@@ -1,0 +1,30 @@
+
+.PurchasePage {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Style for the table title (e.g., "Table 1") */
+  .order-heading {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #333;
+  }
+  

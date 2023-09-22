@@ -1,0 +1,71 @@
+.mobiledetail-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: auto;
+  padding: 20px;
+}
+
+.mobiledetail-image {
+  flex: 1;
+  padding: 10px;
+}
+
+.mobiledetail-image img {
+  height: 400px;
+  margin-left: 20px;
+}
+
+.mobiledetail-details {
+  flex: 2;
+  padding: 10px;
+}
+
+.mobiledetail-details h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.mobiledetail-details .mobiledetail-brand {
+  color: #777;
+}
+
+.mobiledetail-details .mobiledetail-price {
+  color: #009688;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.mobiledetail-details .mobiledetail-brief-specs {
+  margin-top: 20px;
+}
+
+.mobiledetail-details .mobiledetail-reviews {
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .mobiledetail-container {
+    flex-direction: column;
+  }
+
+  .mobiledetail-image img {
+    height: 300px; 
+    margin-left: 0; 
+  }
+
+  .mobiledetail-details {
+    padding: 0;
+  }
+
+  .mobiledetail-details h2 {
+    font-size: 20px;
+  }
+
+  .mobiledetail-details .mobiledetail-price {
+    font-size: 16px; /* Reduce font size for smaller screens */
+    margin-top: 5px; /* Adjust margin for smaller screens */
+  }
+}

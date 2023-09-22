@@ -1,0 +1,8 @@
+export const DEFAULT = "/"
+export const HOME = "/home"
+export const PROFILE = "/profile"
+export const CART = "/cart"
+export const WISHLIST="/wishlist"
+export const PRODUCT="/product"
+export const PURCHASE="/purchase"
+export const ORDERS="/orders"
